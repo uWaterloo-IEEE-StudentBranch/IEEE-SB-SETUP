@@ -38,7 +38,8 @@
         ./configure
         make
         sudo make install
-    Note sudo make install is only for the libraries (libbats and librcsc)
+    *Note* sudo make install is only for the libraries (libbats and librcsc)
+    *Note* agent2d is dependent on librcsc, so install librcsc first 
     
 4.0 Clone other WarBots related repo's, in terminal:
     cd ~

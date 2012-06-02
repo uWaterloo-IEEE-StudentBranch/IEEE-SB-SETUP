@@ -1,0 +1,20 @@
+#include "worldmodel.hh"
+
+#include <stdexcept>
+#include <iostream>
+#include <cassert>
+
+#include <Eigen/LU>
+
+#include "../Math/math.hh"
+#include "../Cochlea/cochlea.hh"
+#include "../Conf/conf.hh"
+#include "../Clock/clock.hh"
+
+#define DEBUGLEVEL 0
+#include "../Preprocessor/debug.hh"
+
+using namespace std;
+using namespace bats;
+using namespace Eigen;
+

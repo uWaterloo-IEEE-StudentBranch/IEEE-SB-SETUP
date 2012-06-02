@@ -38,6 +38,7 @@
         ./configure
         make
         sudo make install
+    *Note* if configure gives errors on missing libraries, install them with synpatic and retry
     *Note* sudo make install is only for the libraries (libbats and librcsc)
     *Note* agent2d is dependent on librcsc, so install librcsc first 
     

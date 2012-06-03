@@ -39,15 +39,17 @@
         doxygen
     Or run this in terminal:
         sudo apt-get install libxml++2.6-2 libxml++2.6-dev libeigen2-dev doxygen
-        
+    
     Follow the README file in each of the four subfolders under the WarBots folder
-    generally, you run the following commands in each folder:
-        ./configure
-        make
-        sudo make install
+    
     *Note* if configure gives errors on missing libraries, install them with synpatic and retry
     *Note* sudo make install is only for the libraries (libbats and librcsc)
-    *Note* agent2d is dependent on librcsc, so install librcsc first 
+    *Note* agent2d is dependent on librcsc, so install librcsc first
+        
+    generally, you run the following commands in each folder:
+            ./configure
+            make
+            sudo make install
     
 4.0 Clone other WarBots related repo's, in terminal:
     cd ~

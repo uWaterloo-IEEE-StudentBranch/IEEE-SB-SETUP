@@ -40,7 +40,7 @@
     Or run this in terminal:
         sudo apt-get install libxml++2.6-2 libxml++2.6-dev libeigen2-dev doxygen
         
-    Follow the README file in which of the four folders under WarBots
+    Follow the README file in each of the four subfolders under the WarBots folder
     generally, you run the following commands in each folder:
         ./configure
         make

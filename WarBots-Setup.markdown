@@ -52,9 +52,9 @@ Or run this in terminal:
         
 Follow the README file in each of the four subfolders under the WarBots folder
     
-*\*Note\** if configure gives errors on missing libraries, install them with synpatic and retry  
-*\*Note\** sudo make install is only for the libraries (libbats and librcsc)  
-*\*Note\** agent2d is dependent on librcsc, so install librcsc first
+*\*Note** if configure gives errors on missing libraries, install them with synpatic and retry  
+*\*Note** sudo make install is only for the libraries (libbats and librcsc)  
+*\*Note** agent2d is dependent on librcsc, so install librcsc first
         
 Generally, you run the following commands in each folder:
 

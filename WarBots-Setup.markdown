@@ -18,36 +18,37 @@ WarBots Development Setup Instructions
     
 Either use Synaptic Package Manager (install from Ubuntu Software Center)
 
-        search "rcss", excluding quotes, and install these packages:
-            rcssmonitor
-            rcssmonitor-dev
-            rcsslogplayer
-            rcsslogplayer-dev
-            rcsoccersim
-            rcssserver
-            rcssserver-dev
-            rcssserver3d
-            rcssserver3d-dev
+    search "rcss", excluding quotes, and install these packages:
+        rcssmonitor
+        rcssmonitor-dev
+        rcsslogplayer
+        rcsslogplayer-dev
+        rcsoccersim
+        rcssserver
+        rcssserver-dev
+        rcssserver3d
+        rcssserver3d-dev
             
 Or run this in terminal:
 
-        sudo apt-get install rcssmonitor rcssmonitor-dev rcsslogplayer rcsslogplayer-dev rcsoccersim rcssserver rcssserver-dev rcssserver3d rcssserver3d-dev
+    sudo apt-get install rcssmonitor rcssmonitor-dev rcsslogplayer rcsslogplayer-dev rcsoccersim rcssserver rcssserver-dev rcssserver3d rcssserver3d-dev
     
 3.0 Clone this repository, if you haven't yet  
 To clone, run the following in terminal: 
-        cd ~
-        git clone git@github.com:uWaterloo-IEEE-StudentBranch/IEEE-SB-SETUP.git
+
+    cd ~
+    git clone git@github.com:uWaterloo-IEEE-StudentBranch/IEEE-SB-SETUP.git
         
 Open synpatic, install search for following packages:
 
-        libxml++2.6-2
-        libxml++2.6-dev
-        libeigen2-dev
-        doxygen
-        
+    libxml++2.6-2
+    libxml++2.6-dev
+    libeigen2-dev
+    doxygen
+    
 Or run this in terminal:
 
-        sudo apt-get install libxml++2.6-2 libxml++2.6-dev libeigen2-dev doxygen
+    sudo apt-get install libxml++2.6-2 libxml++2.6-dev libeigen2-dev doxygen
         
 Follow the README file in each of the four subfolders under the WarBots folder
     

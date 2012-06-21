@@ -1,3 +1,6 @@
+WarBots Development Setup Instructions
+======================================
+
 1.0 Download Ubuntu 11.10 (Oneiric Ocelot) 32-bit (IMPORTANT, 32 BIT, note that x86 is 32 bit)
     http://mirror.anl.gov/pub/ubuntu-iso/DVDs/ubuntu/11.10/release/
 

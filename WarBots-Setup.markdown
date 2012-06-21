@@ -62,9 +62,10 @@ Generally, you run the following commands in each folder:
     make
     sudo make install
     
-4.0 To test a few things, run terminal (use chmod to change permission if needed):
+4.0 To test a few things, run terminal (use chmod to change permission if needed):  
+to see help for chmod
 
-    <man chmod to see help for chmod>
+    man chmod
     
 Sim2D:
 

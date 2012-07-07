@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/theperv/Downloads/Box2D_v2.2.1/HelloWorld/HelloWorld.cpp
+Box2D/Box2D.h
+-
+cstdio
+-
+

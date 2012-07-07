@@ -50,7 +50,7 @@ Or run this in terminal:
 
     sudo apt-get install libxml++2.6-2 libxml++2.6-dev libeigen2-dev doxygen
         
-Follow the README file in each of the four subfolders under the WarBots folder
+Follow the README file in each of the five subfolders under the WarBots folder
     
 *\*Note** if configure gives errors on missing libraries, install them with synpatic and retry  
 *\*Note** sudo make install is only for the libraries (libbats and librcsc)  

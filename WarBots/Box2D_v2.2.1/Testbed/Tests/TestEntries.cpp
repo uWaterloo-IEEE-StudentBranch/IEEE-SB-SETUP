@@ -73,9 +73,12 @@ using namespace std;
 #include "VaryingRestitution.h"
 #include "VerticalStack.h"
 #include "Web.h"
-
+#include "FooTest.h"
+    
+       
 TestEntry g_testEntries[] =
 {
+    {"Foo test", FooTest::Create},
 	{"Tumbler", Tumbler::Create},
 	{"Tiles", Tiles::Create},
 	{"Dump Shell", DumpShell::Create},

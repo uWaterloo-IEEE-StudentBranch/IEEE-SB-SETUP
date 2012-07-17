@@ -272,64 +272,6 @@ GL/glu.h
 stdlib.h
 -
 
-../glui/glui.h
-GLUT/glut.h
--
-freeglut/freeglut.h
-../glui/freeglut/freeglut.h
-cstdlib
--
-cstdio
--
-cstring
--
-string
--
-vector
--
-
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Main.cpp
-Render.h
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Render.h
-Test.h
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Test.h
-glui/glui.h
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/glui/glui.h
-cstdio
--
-
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Render.cpp
-Render.h
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Render.h
-GLUT/glut.h
--
-freeglut/freeglut.h
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/freeglut/freeglut.h
-cstdio
--
-cstdarg
--
-cstring
--
-
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Render.h
-Box2D/Box2D.h
--
-
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Test.cpp
-Test.h
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Test.h
-cstdio
--
-
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Test.h
-Box2D/Box2D.h
--
-Render.h
-/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Framework/Render.h
-cstdlib
--
-
 /home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/../Framework/Render.h
 Box2D/Box2D.h
 -
@@ -385,6 +327,8 @@ algorithm
 /home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/EdgeShapes.h
 
 /home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/EdgeTest.h
+
+/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/FooTest.h
 
 /home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/Gears.h
 
@@ -515,6 +459,8 @@ VerticalStack.h
 /home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/VerticalStack.h
 Web.h
 /home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/Web.h
+FooTest.h
+/home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/FooTest.h
 
 /home/theperv/Downloads/Box2D_v2.2.1/Testbed/Tests/TheoJansen.h
 

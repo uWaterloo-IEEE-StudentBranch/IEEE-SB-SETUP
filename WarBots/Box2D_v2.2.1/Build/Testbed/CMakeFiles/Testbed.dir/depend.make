@@ -189,6 +189,7 @@ Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/DumpShe
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/DynamicTreeTest.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/EdgeShapes.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/EdgeTest.h
+Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/FooTest.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/Gears.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/OneSidedPlatform.h
 Testbed/CMakeFiles/Testbed.dir/Tests/TestEntries.cpp.o: ../Testbed/Tests/Pinball.h

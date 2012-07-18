@@ -1,4 +1,4 @@
-# Install script for directory: /home/theperv/Downloads/Box2D_v2.2.1
+# Install script for directory: /home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/home/theperv/Downloads/Box2D_v2.2.1/Build/Box2D/cmake_install.cmake")
-  INCLUDE("/home/theperv/Downloads/Box2D_v2.2.1/Build/HelloWorld/cmake_install.cmake")
-  INCLUDE("/home/theperv/Downloads/Box2D_v2.2.1/Build/freeglut/cmake_install.cmake")
-  INCLUDE("/home/theperv/Downloads/Box2D_v2.2.1/Build/glui/cmake_install.cmake")
-  INCLUDE("/home/theperv/Downloads/Box2D_v2.2.1/Build/Testbed/cmake_install.cmake")
+  INCLUDE("/home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1/Build/Box2D/cmake_install.cmake")
+  INCLUDE("/home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1/Build/HelloWorld/cmake_install.cmake")
+  INCLUDE("/home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1/Build/freeglut/cmake_install.cmake")
+  INCLUDE("/home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1/Build/glui/cmake_install.cmake")
+  INCLUDE("/home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1/Build/Testbed/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -48,7 +48,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/home/theperv/Downloads/Box2D_v2.2.1/Build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1/Build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/home/theperv/Downloads/Box2D_v2.2.1/Build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1/Build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

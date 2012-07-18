@@ -1,11 +1,16 @@
 #ifndef FOOTEST_H
 #define FOOTEST_H
 
+const double PI = 3.1415926;
+
 class FooTest : public Test
 {
     public:
     FooTest() { 
-
+        
+        b2Vec2 gravity(0.0f, -0.5f);
+        m_world->SetGravity(gravity);
+        
 	    // Define the ground body.
 	    b2BodyDef groundBodyDef[4];
 	    groundBodyDef[0].position.Set(0.0f, 2.7f);      //top
@@ -36,23 +41,40 @@ class FooTest : public Test
 	    }
 	
 	    // Define the dynamic body. We set its position and call the body factory.
-	    b2BodyDef bodyDef[6];
+	    b2BodyDef blueBodyDef[6];
+	    b2BodyDef yellowBodyDef[6];
 	    for(unsigned int i = 0; i < 6; i += 1){
-	        bodyDef[i].type = b2_dynamicBody;
+	        blueBodyDef[i].type = b2_dynamicBody;
+	    }
+	    for(unsigned int i = 0; i < 6; i += 1){
+	        yellowBodyDef[i].type = b2_dynamicBody;
 	    }
 	
-	    bodyDef[0].position.Set(1.0f, 2.0f);
-	    bodyDef[1].position.Set(1.0f, 0.0f);
-	    bodyDef[2].position.Set(1.0f, -2.0f);
-	    bodyDef[3].position.Set(2.0f, 1.0f);
-	    bodyDef[4].position.Set(2.0f, -1.0f);
-	    bodyDef[5].position.Set(3.0f, 0.0f);
+	    blueBodyDef[0].position.Set(1.0f, 2.0f);
+	    blueBodyDef[1].position.Set(1.0f, 0.0f);
+	    blueBodyDef[2].position.Set(1.0f, -2.0f);
+	    blueBodyDef[3].position.Set(2.0f, 1.0f);
+	    blueBodyDef[4].position.Set(2.0f, -1.0f);
+	    blueBodyDef[5].position.Set(3.0f, 0.0f);
+	    
+	    yellowBodyDef[0].position.Set(-1.0f, 2.0f);
+	    yellowBodyDef[1].position.Set(-1.0f, 0.0f);
+	    yellowBodyDef[2].position.Set(-1.0f, -2.0f);
+	    yellowBodyDef[3].position.Set(-2.0f, 1.0f);
+	    yellowBodyDef[4].position.Set(-2.0f, -1.0f);
+	    yellowBodyDef[5].position.Set(-3.0f, 0.0f);
 	
-	    b2Body* body[6];
+	    b2Body* blueBody[6];
+	    b2Body* yellowBody[6];
 	    for(unsigned int i = 0; i < 6; i += 1){
-	        body[i] = m_world->CreateBody(&bodyDef[i]);
-	        b2Vec2 pos = body[i]->GetPosition();
-            body[i]->SetTransform(pos, 90.0);
+	        blueBody[i] = m_world->CreateBody(&blueBodyDef[i]);
+	        b2Vec2 pos = blueBody[i]->GetPosition();
+            blueBody[i]->SetTransform(pos, PI/2);
+	    }
+	    for(unsigned int i = 0; i < 6; i += 1){
+	        yellowBody[i] = m_world->CreateBody(&yellowBodyDef[i]);
+	        b2Vec2 pos = yellowBody[i]->GetPosition();
+            yellowBody[i]->SetTransform(pos, 3*PI/2);
 	    }
 
 	    // Define another box shape for our dynamic body.
@@ -102,7 +124,8 @@ class FooTest : public Test
 
 	    // Add the shape to the body.
 	    for(unsigned int i = 0; i < 6; i += 1){
-	        body[i]->CreateFixture(&fixtureDefTri);
+	        blueBody[i]->CreateFixture(&fixtureDefTri);
+	        yellowBody[i]->CreateFixture(&fixtureDefTri);
 	    }
     }
 

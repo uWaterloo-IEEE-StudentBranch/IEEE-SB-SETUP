@@ -1,4 +1,4 @@
-# Install script for directory: /home/theperv/Downloads/Box2D_v2.2.1/freeglut
+# Install script for directory: /home/theperv/IEEE-SB-SETUP/WarBots/Box2D_v2.2.1/freeglut
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
